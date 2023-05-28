@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    .skill {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .portfolio-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .portfolio-item img {
+      width: 200px;
+      height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <h3>Skill 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="skill">
+      <h3>Skill 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="skill">
+      <h3>Skill 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="skill">
+      <h3>Skill 4</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-item">
+      <img src="screenshot.png" alt="Portfolio Item 1">
+    </div>
+    <div class="portfolio-item">
+      <img src="screenshot.png" alt="Portfolio Item 2">
+    </div>
+    <div class="portfolio-item">
+      <img src="screenshot.png" alt="Portfolio Item 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <h3>Name and Surname</h3>
+    <address>
+      123 Main Street<br>
+      City, State, Zip<br>
+      Country
+    </address>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+</html>
